@@ -35,7 +35,7 @@
 * **Qdrant** — векторная БД для семантического поиска
 * **Gemini** (через OpenRouter API)— генеративная модель для RAG
 * **Multilingual-e5-base** и **Multilingual-e5-large** — модели для эмбеддингов
-* * **Telegram Bot API** (через `pyTelegramBotAPI`)
+* **Telegram Bot API** (через `pyTelegramBotAPI`)
 * **MySQL** — хранение пользовательских интересов, событий и логики Random Coffee
 * **APScheduler** — отправка напоминаний по расписанию
 
@@ -50,6 +50,8 @@
 ├── bot_dates.py              # Напоминания о событиях
 ├── bot_random_coffee.py      # Random Coffee
 ├── bot_feedback.py           # Обратная связь
+├── db.py                     # Подключение к бд
+├── programs_file.py          # хранение списков
 ├── requirements.txt          # Зависимости
 ├── config.env                # Подключения
 └── README.md

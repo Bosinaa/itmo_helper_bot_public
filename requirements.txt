@@ -1,0 +1,13 @@
+pyTelegramBotAPI==4.27.0
+mysql-connector-python==8.1.0   
+PyMySQL==1.1.1
+sentence-transformers==4.1.0
+torch==2.3.0                     
+numpy==2.1.0                     
+qdrant-client==1.14.2
+google-generativeai==0.8.5
+requests==2.32.3
+schedule==1.2.2
+apscheduler==3.10.1
+pymorphy2==0.9.1
+pymorphy2-dicts-ru==2.4.417127.4579844

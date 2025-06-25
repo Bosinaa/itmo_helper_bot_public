@@ -1,6 +1,7 @@
 import telebot
 from telebot import types
 import mysql.connector
+from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from dotenv import load_dotenv
 import os
 load_dotenv("config.env")  # Загружает переменные из config.env
